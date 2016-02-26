@@ -230,7 +230,7 @@ MainAsset::register($this);
                                         <li class="divider"></li>
                                         <li><a href="#"><i class="fa fa-lock"></i>Screen lock</a></li>
                                         
-                                        <li><?= Html::a('Logout', ['site/logout'], ['class' => 'fa fa-key', 'data-toggle' => 'dropdown', 'data-method'=>'post']) ?></li>
+                                        <li><?= Html::a(' Logout', ['site/logout'], ['class' => 'fa fa-key', 'data-toggle' => 'dropdown', 'data-method'=>'post']) ?></li>
                                     </ul>
                                 </div>
                             </li>
