@@ -123,6 +123,10 @@ class SiteController extends Controller
      */
     public function actionContact()
     {
+        if(Yii::$app->user->isGuest){
+            
+            return $this->actionLogin();
+        }else{
         $model = new ContactForm();
         if ($model->load(Yii::$app->request->post()) && $model->validate()) {
             if ($model->sendEmail(Yii::$app->params['adminEmail'])) {
@@ -138,16 +142,13 @@ class SiteController extends Controller
             ]);
         }
     }
+    }
 
     /**
      * Displays about page.
      *
      * @return mixed
      */
-    public function actionAbout()
-    {
-        return $this->render('about');
-    }
 
     /**
      * Signs user up.
@@ -156,13 +157,14 @@ class SiteController extends Controller
      */
     public function actionSignup()
     {
+        $this->layout = 'loginlayout';
         $model = new SignupForm();
         
         if ($model->load(Yii::$app->request->post())) {
 		        
 			  if ($user = $model->signup()) {
 	                
-	                    return $this->actionProfile();
+	                    return $this->goHome();
 	                
 	            }
 	        }else{
@@ -176,19 +178,6 @@ class SiteController extends Controller
         }
     }
     
-    public function actionProfile($user)
-    {
-        $model = new Profile();
-
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id]);
-        } else {
-            return $this->render('create', [
-                'model' => $model,
-                'user' => $user,
-            ]);
-        }
-    }
 
     /**
      * Requests password reset.

@@ -125,6 +125,10 @@ class User extends ActiveRecord implements IdentityInterface
         return $this->getPrimaryKey();
     }
 
+    public function getProfile(){
+        return $this->hasOne(Profile::className(), ['user_id' => 'id']);
+    }
+
     /**
      * @inheritdoc
      */

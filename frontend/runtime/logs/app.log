@@ -12340,3 +12340,1163 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1456517724.562
     'REQUEST_TIME' => 1456517724
 ]
+2016-02-27 00:20:36 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "signup".' in /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('signup', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-02-27 00:20:36 [::1][-][-][info][application] $_COOKIE = [
+    '_frontendCsrf' => 'b3fc08dec994b9def87174cda96816cc94ab502c97d18cef05ddad53f1c48257a:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"vHWH7C8w4BLw2WhwLxZd-Wr8JbbbNH3A\";}'
+    '_ga' => 'GA1.1.1947769659.1450365104'
+    '_frontendSessionId' => '2mrbgp10k3baguiug5sdea9j53'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'VtDdxMCoDucAADtnCGAAAAAJ'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'VtDdxMCoDucAADtnCGAAAAAJ'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36 OPR/35.0.2066.82'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, lzma, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCsrf=b3fc08dec994b9def87174cda96816cc94ab502c97d18cef05ddad53f1c48257a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22vHWH7C8w4BLw2WhwLxZd-Wr8JbbbNH3A%22%3B%7D; _ga=GA1.1.1947769659.1450365104; _frontendSessionId=2mrbgp10k3baguiug5sdea9j53'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Unix) OpenSSL/1.0.1p PHP/5.5.28 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php'
+    'REMOTE_PORT' => '53651'
+    'REDIRECT_URL' => '/laskekas/signup'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/laskekas/signup'
+    'SCRIPT_NAME' => '/laskekas/index.php'
+    'PHP_SELF' => '/laskekas/index.php'
+    'REQUEST_TIME_FLOAT' => 1456528836.231
+    'REQUEST_TIME' => 1456528836
+]
+2016-02-27 00:28:20 [::1][-][2mrbgp10k3baguiug5sdea9j53][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ')'' in /Applications/XAMPP/xamppfiles/htdocs/laskekas/frontend/views/site/login.php:28
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-02-27 00:28:20 [::1][-][2mrbgp10k3baguiug5sdea9j53][info][application] $_COOKIE = [
+    '_frontendCsrf' => 'b3fc08dec994b9def87174cda96816cc94ab502c97d18cef05ddad53f1c48257a:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"vHWH7C8w4BLw2WhwLxZd-Wr8JbbbNH3A\";}'
+    '_frontendSessionId' => '2mrbgp10k3baguiug5sdea9j53'
+    '_ga' => 'GA1.1.1947769659.1450365104'
+    '_gat' => '1'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VtDflMCoDucAAFYu-GkAAAAC'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36 OPR/35.0.2066.82'
+    'HTTP_REFERER' => 'http://localhost/laskekas/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, lzma, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCsrf=b3fc08dec994b9def87174cda96816cc94ab502c97d18cef05ddad53f1c48257a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22vHWH7C8w4BLw2WhwLxZd-Wr8JbbbNH3A%22%3B%7D; _frontendSessionId=2mrbgp10k3baguiug5sdea9j53; _ga=GA1.1.1947769659.1450365104; _gat=1'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Unix) OpenSSL/1.0.1p PHP/5.5.28 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php'
+    'REMOTE_PORT' => '53740'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/laskekas/'
+    'SCRIPT_NAME' => '/laskekas/index.php'
+    'PHP_SELF' => '/laskekas/index.php'
+    'REQUEST_TIME_FLOAT' => 1456529300.578
+    'REQUEST_TIME' => 1456529300
+]
+2016-02-27 00:30:38 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/images/avtar-3.jpg".' in /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/images/avt...', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-02-27 00:30:37 [::1][-][-][info][application] $_COOKIE = [
+    '_frontendCsrf' => 'b3fc08dec994b9def87174cda96816cc94ab502c97d18cef05ddad53f1c48257a:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"vHWH7C8w4BLw2WhwLxZd-Wr8JbbbNH3A\";}'
+    '_frontendSessionId' => '2mrbgp10k3baguiug5sdea9j53'
+    '_ga' => 'GA1.1.1947769659.1450365104'
+    '_gat' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'VtDgHcCoDucAAFZb7IIAAAAK'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'VtDgHcCoDucAAFZb7IIAAAAK'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36 OPR/35.0.2066.82'
+    'HTTP_REFERER' => 'http://localhost/laskekas/site/signup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, lzma, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCsrf=b3fc08dec994b9def87174cda96816cc94ab502c97d18cef05ddad53f1c48257a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22vHWH7C8w4BLw2WhwLxZd-Wr8JbbbNH3A%22%3B%7D; _frontendSessionId=2mrbgp10k3baguiug5sdea9j53; _ga=GA1.1.1947769659.1450365104; _gat=1'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Unix) OpenSSL/1.0.1p PHP/5.5.28 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php'
+    'REMOTE_PORT' => '53758'
+    'REDIRECT_URL' => '/laskekas/site/images/avtar-3.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/laskekas/site/images/avtar-3.jpg'
+    'SCRIPT_NAME' => '/laskekas/index.php'
+    'PHP_SELF' => '/laskekas/index.php'
+    'REQUEST_TIME_FLOAT' => 1456529437.991
+    'REQUEST_TIME' => 1456529437
+]
+2016-02-27 00:30:38 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/images/avtar-2.jpg".' in /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/images/avt...', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-02-27 00:30:38 [::1][-][-][info][application] $_COOKIE = [
+    '_frontendCsrf' => 'b3fc08dec994b9def87174cda96816cc94ab502c97d18cef05ddad53f1c48257a:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"vHWH7C8w4BLw2WhwLxZd-Wr8JbbbNH3A\";}'
+    '_frontendSessionId' => '2mrbgp10k3baguiug5sdea9j53'
+    '_ga' => 'GA1.1.1947769659.1450365104'
+    '_gat' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'VtDgHcCoDucAAFZ2m8gAAAAH'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'VtDgHcCoDucAAFZ2m8gAAAAH'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36 OPR/35.0.2066.82'
+    'HTTP_REFERER' => 'http://localhost/laskekas/site/signup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, lzma, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCsrf=b3fc08dec994b9def87174cda96816cc94ab502c97d18cef05ddad53f1c48257a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22vHWH7C8w4BLw2WhwLxZd-Wr8JbbbNH3A%22%3B%7D; _frontendSessionId=2mrbgp10k3baguiug5sdea9j53; _ga=GA1.1.1947769659.1450365104; _gat=1'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Unix) OpenSSL/1.0.1p PHP/5.5.28 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php'
+    'REMOTE_PORT' => '53756'
+    'REDIRECT_URL' => '/laskekas/site/images/avtar-2.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/laskekas/site/images/avtar-2.jpg'
+    'SCRIPT_NAME' => '/laskekas/index.php'
+    'PHP_SELF' => '/laskekas/index.php'
+    'REQUEST_TIME_FLOAT' => 1456529437.999
+    'REQUEST_TIME' => 1456529437
+]
+2016-02-27 00:30:38 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/images/avtar-1.jpg".' in /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/images/avt...', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-02-27 00:30:37 [::1][-][-][info][application] $_COOKIE = [
+    '_frontendCsrf' => 'b3fc08dec994b9def87174cda96816cc94ab502c97d18cef05ddad53f1c48257a:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"vHWH7C8w4BLw2WhwLxZd-Wr8JbbbNH3A\";}'
+    '_frontendSessionId' => '2mrbgp10k3baguiug5sdea9j53'
+    '_ga' => 'GA1.1.1947769659.1450365104'
+    '_gat' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'VtDgHcCoDucAAFbVxvcAAAAA'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'VtDgHcCoDucAAFbVxvcAAAAA'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36 OPR/35.0.2066.82'
+    'HTTP_REFERER' => 'http://localhost/laskekas/site/signup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, lzma, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCsrf=b3fc08dec994b9def87174cda96816cc94ab502c97d18cef05ddad53f1c48257a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22vHWH7C8w4BLw2WhwLxZd-Wr8JbbbNH3A%22%3B%7D; _frontendSessionId=2mrbgp10k3baguiug5sdea9j53; _ga=GA1.1.1947769659.1450365104; _gat=1'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Unix) OpenSSL/1.0.1p PHP/5.5.28 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php'
+    'REMOTE_PORT' => '53757'
+    'REDIRECT_URL' => '/laskekas/site/images/avtar-1.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/laskekas/site/images/avtar-1.jpg'
+    'SCRIPT_NAME' => '/laskekas/index.php'
+    'PHP_SELF' => '/laskekas/index.php'
+    'REQUEST_TIME_FLOAT' => 1456529437.989
+    'REQUEST_TIME' => 1456529437
+]
+2016-02-27 00:31:47 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/images/avtar-2.jpg".' in /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/images/avt...', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-02-27 00:31:47 [::1][-][-][info][application] $_COOKIE = [
+    '_frontendCsrf' => 'b3fc08dec994b9def87174cda96816cc94ab502c97d18cef05ddad53f1c48257a:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"vHWH7C8w4BLw2WhwLxZd-Wr8JbbbNH3A\";}'
+    '_frontendSessionId' => '2mrbgp10k3baguiug5sdea9j53'
+    '_ga' => 'GA1.1.1947769659.1450365104'
+    '_gat' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'VtDgY8CoDucAAFYu-GsAAAAC'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'VtDgY8CoDucAAFYu-GsAAAAC'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36 OPR/35.0.2066.82'
+    'HTTP_REFERER' => 'http://localhost/laskekas/site/signup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, lzma, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCsrf=b3fc08dec994b9def87174cda96816cc94ab502c97d18cef05ddad53f1c48257a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22vHWH7C8w4BLw2WhwLxZd-Wr8JbbbNH3A%22%3B%7D; _frontendSessionId=2mrbgp10k3baguiug5sdea9j53; _ga=GA1.1.1947769659.1450365104; _gat=1'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Unix) OpenSSL/1.0.1p PHP/5.5.28 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php'
+    'REMOTE_PORT' => '53765'
+    'REDIRECT_URL' => '/laskekas/site/images/avtar-2.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/laskekas/site/images/avtar-2.jpg'
+    'SCRIPT_NAME' => '/laskekas/index.php'
+    'PHP_SELF' => '/laskekas/index.php'
+    'REQUEST_TIME_FLOAT' => 1456529507.953
+    'REQUEST_TIME' => 1456529507
+]
+2016-02-27 00:31:47 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/images/avtar-1.jpg".' in /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/images/avt...', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-02-27 00:31:47 [::1][-][-][info][application] $_COOKIE = [
+    '_frontendCsrf' => 'b3fc08dec994b9def87174cda96816cc94ab502c97d18cef05ddad53f1c48257a:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"vHWH7C8w4BLw2WhwLxZd-Wr8JbbbNH3A\";}'
+    '_frontendSessionId' => '2mrbgp10k3baguiug5sdea9j53'
+    '_ga' => 'GA1.1.1947769659.1450365104'
+    '_gat' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'VtDgY8CoDucAAFYgJiAAAAAG'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'VtDgY8CoDucAAFYgJiAAAAAG'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36 OPR/35.0.2066.82'
+    'HTTP_REFERER' => 'http://localhost/laskekas/site/signup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, lzma, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCsrf=b3fc08dec994b9def87174cda96816cc94ab502c97d18cef05ddad53f1c48257a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22vHWH7C8w4BLw2WhwLxZd-Wr8JbbbNH3A%22%3B%7D; _frontendSessionId=2mrbgp10k3baguiug5sdea9j53; _ga=GA1.1.1947769659.1450365104; _gat=1'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Unix) OpenSSL/1.0.1p PHP/5.5.28 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php'
+    'REMOTE_PORT' => '53764'
+    'REDIRECT_URL' => '/laskekas/site/images/avtar-1.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/laskekas/site/images/avtar-1.jpg'
+    'SCRIPT_NAME' => '/laskekas/index.php'
+    'PHP_SELF' => '/laskekas/index.php'
+    'REQUEST_TIME_FLOAT' => 1456529507.953
+    'REQUEST_TIME' => 1456529507
+]
+2016-02-27 00:31:47 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/images/avtar-3.jpg".' in /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/images/avt...', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-02-27 00:31:47 [::1][-][-][info][application] $_COOKIE = [
+    '_frontendCsrf' => 'b3fc08dec994b9def87174cda96816cc94ab502c97d18cef05ddad53f1c48257a:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"vHWH7C8w4BLw2WhwLxZd-Wr8JbbbNH3A\";}'
+    '_frontendSessionId' => '2mrbgp10k3baguiug5sdea9j53'
+    '_ga' => 'GA1.1.1947769659.1450365104'
+    '_gat' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'VtDgY8CoDucAAFRbz1wAAAAD'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'VtDgY8CoDucAAFRbz1wAAAAD'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36 OPR/35.0.2066.82'
+    'HTTP_REFERER' => 'http://localhost/laskekas/site/signup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, lzma, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCsrf=b3fc08dec994b9def87174cda96816cc94ab502c97d18cef05ddad53f1c48257a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22vHWH7C8w4BLw2WhwLxZd-Wr8JbbbNH3A%22%3B%7D; _frontendSessionId=2mrbgp10k3baguiug5sdea9j53; _ga=GA1.1.1947769659.1450365104; _gat=1'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Unix) OpenSSL/1.0.1p PHP/5.5.28 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php'
+    'REMOTE_PORT' => '53766'
+    'REDIRECT_URL' => '/laskekas/site/images/avtar-3.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/laskekas/site/images/avtar-3.jpg'
+    'SCRIPT_NAME' => '/laskekas/index.php'
+    'PHP_SELF' => '/laskekas/index.php'
+    'REQUEST_TIME_FLOAT' => 1456529507.953
+    'REQUEST_TIME' => 1456529507
+]
+2016-02-27 00:35:45 [::1][-][2mrbgp10k3baguiug5sdea9j53][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Missing argument 1 for frontend\controllers\SiteController::actionProfile(), called in /Applications/XAMPP/xamppfiles/htdocs/laskekas/frontend/controllers/SiteController.php on line 166 and defined' in /Applications/XAMPP/xamppfiles/htdocs/laskekas/frontend/controllers/SiteController.php:180
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/laskekas/frontend/controllers/SiteController.php(180): yii\base\ErrorHandler->handleError(2, 'Missing argumen...', '/Applications/X...', 180, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/laskekas/frontend/controllers/SiteController.php(166): frontend\controllers\SiteController->actionProfile()
+#2 [internal function]: frontend\controllers\SiteController->actionSignup()
+#3 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('signup', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/signup', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php(18): yii\base\Application->run()
+#9 {main}
+2016-02-27 00:35:44 [::1][-][2mrbgp10k3baguiug5sdea9j53][info][application] $_POST = [
+    '_frontendCsrf' => 'bWhrYUJwSE4bIDwpdTNwOVkqJxZwJyA5IRAxBW8nOnYnCgkDDDh7Dw=='
+    'SignupForm' => [
+        'username' => 'alex'
+        'email' => 'daanmetal@gmail.com'
+        'password' => '887966394'
+    ]
+    'signup-button' => ''
+]
+
+$_COOKIE = [
+    '_frontendCsrf' => 'b3fc08dec994b9def87174cda96816cc94ab502c97d18cef05ddad53f1c48257a:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"vHWH7C8w4BLw2WhwLxZd-Wr8JbbbNH3A\";}'
+    '_frontendSessionId' => '2mrbgp10k3baguiug5sdea9j53'
+    '_ga' => 'GA1.1.1947769659.1450365104'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'VtDhUMCoDucAAFbVxvoAAAAA'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'VtDhUMCoDucAAFbVxvoAAAAA'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '198'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36 OPR/35.0.2066.82'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost/laskekas/site/signup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, lzma'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCsrf=b3fc08dec994b9def87174cda96816cc94ab502c97d18cef05ddad53f1c48257a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22vHWH7C8w4BLw2WhwLxZd-Wr8JbbbNH3A%22%3B%7D; _frontendSessionId=2mrbgp10k3baguiug5sdea9j53; _ga=GA1.1.1947769659.1450365104'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Unix) OpenSSL/1.0.1p PHP/5.5.28 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php'
+    'REMOTE_PORT' => '53797'
+    'REDIRECT_URL' => '/laskekas/site/signup'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/laskekas/site/signup'
+    'SCRIPT_NAME' => '/laskekas/index.php'
+    'PHP_SELF' => '/laskekas/index.php'
+    'REQUEST_TIME_FLOAT' => 1456529744.504
+    'REQUEST_TIME' => 1456529744
+]
+2016-02-27 00:36:42 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/images/avtar-1.jpg".' in /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/images/avt...', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-02-27 00:36:42 [::1][-][-][info][application] $_COOKIE = [
+    '_frontendCsrf' => 'b3fc08dec994b9def87174cda96816cc94ab502c97d18cef05ddad53f1c48257a:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"vHWH7C8w4BLw2WhwLxZd-Wr8JbbbNH3A\";}'
+    '_ga' => 'GA1.1.1947769659.1450365104'
+    '_frontendSessionId' => '1vpe2c5kr0e6cqphh4gou5rbs3'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'VtDhisCoDucAAFYgJiUAAAAG'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'VtDhisCoDucAAFYgJiUAAAAG'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36 OPR/35.0.2066.82'
+    'HTTP_REFERER' => 'http://localhost/laskekas/site/about'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, lzma, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCsrf=b3fc08dec994b9def87174cda96816cc94ab502c97d18cef05ddad53f1c48257a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22vHWH7C8w4BLw2WhwLxZd-Wr8JbbbNH3A%22%3B%7D; _ga=GA1.1.1947769659.1450365104; _frontendSessionId=1vpe2c5kr0e6cqphh4gou5rbs3'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Unix) OpenSSL/1.0.1p PHP/5.5.28 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php'
+    'REMOTE_PORT' => '53814'
+    'REDIRECT_URL' => '/laskekas/site/images/avtar-1.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/laskekas/site/images/avtar-1.jpg'
+    'SCRIPT_NAME' => '/laskekas/index.php'
+    'PHP_SELF' => '/laskekas/index.php'
+    'REQUEST_TIME_FLOAT' => 1456529802.871
+    'REQUEST_TIME' => 1456529802
+]
+2016-02-27 00:36:42 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/images/avtar-2.jpg".' in /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/images/avt...', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-02-27 00:36:42 [::1][-][-][info][application] $_COOKIE = [
+    '_frontendCsrf' => 'b3fc08dec994b9def87174cda96816cc94ab502c97d18cef05ddad53f1c48257a:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"vHWH7C8w4BLw2WhwLxZd-Wr8JbbbNH3A\";}'
+    '_ga' => 'GA1.1.1947769659.1450365104'
+    '_frontendSessionId' => '1vpe2c5kr0e6cqphh4gou5rbs3'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'VtDhisCoDucAAFRbz28AAAAD'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'VtDhisCoDucAAFRbz28AAAAD'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36 OPR/35.0.2066.82'
+    'HTTP_REFERER' => 'http://localhost/laskekas/site/about'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, lzma, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCsrf=b3fc08dec994b9def87174cda96816cc94ab502c97d18cef05ddad53f1c48257a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22vHWH7C8w4BLw2WhwLxZd-Wr8JbbbNH3A%22%3B%7D; _ga=GA1.1.1947769659.1450365104; _frontendSessionId=1vpe2c5kr0e6cqphh4gou5rbs3'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Unix) OpenSSL/1.0.1p PHP/5.5.28 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php'
+    'REMOTE_PORT' => '53815'
+    'REDIRECT_URL' => '/laskekas/site/images/avtar-2.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/laskekas/site/images/avtar-2.jpg'
+    'SCRIPT_NAME' => '/laskekas/index.php'
+    'PHP_SELF' => '/laskekas/index.php'
+    'REQUEST_TIME_FLOAT' => 1456529802.871
+    'REQUEST_TIME' => 1456529802
+]
+2016-02-27 00:36:42 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/images/avtar-3.jpg".' in /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/images/avt...', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-02-27 00:36:42 [::1][-][-][info][application] $_COOKIE = [
+    '_frontendCsrf' => 'b3fc08dec994b9def87174cda96816cc94ab502c97d18cef05ddad53f1c48257a:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"vHWH7C8w4BLw2WhwLxZd-Wr8JbbbNH3A\";}'
+    '_ga' => 'GA1.1.1947769659.1450365104'
+    '_frontendSessionId' => '1vpe2c5kr0e6cqphh4gou5rbs3'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'VtDhisCoDucAAFdf5jIAAAAF'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'VtDhisCoDucAAFdf5jIAAAAF'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36 OPR/35.0.2066.82'
+    'HTTP_REFERER' => 'http://localhost/laskekas/site/about'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, lzma, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCsrf=b3fc08dec994b9def87174cda96816cc94ab502c97d18cef05ddad53f1c48257a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22vHWH7C8w4BLw2WhwLxZd-Wr8JbbbNH3A%22%3B%7D; _ga=GA1.1.1947769659.1450365104; _frontendSessionId=1vpe2c5kr0e6cqphh4gou5rbs3'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Unix) OpenSSL/1.0.1p PHP/5.5.28 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php'
+    'REMOTE_PORT' => '53816'
+    'REDIRECT_URL' => '/laskekas/site/images/avtar-3.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/laskekas/site/images/avtar-3.jpg'
+    'SCRIPT_NAME' => '/laskekas/index.php'
+    'PHP_SELF' => '/laskekas/index.php'
+    'REQUEST_TIME_FLOAT' => 1456529802.871
+    'REQUEST_TIME' => 1456529802
+]
+2016-02-27 01:25:18 [::1][-][kr62b76jj5obg4hd4km2ld8h87][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'daanmetal@gmail.com' for key 'email'' in /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/db/Command.php:784
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/db/Command.php(784): PDOStatement->execute()
+#1 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/db/Schema.php(448): yii\db\Command->execute()
+#2 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/db/ActiveRecord.php(457): yii\db\Schema->insert('<span class="st...', '[<span class="s...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/db/ActiveRecord.php(427): yii\db\ActiveRecord->insertInternal('<span class="ke...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/db/BaseActiveRecord.php(593): yii\db\ActiveRecord->insert('<span class="ke...', '<span class="ke...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/laskekas/frontend/models/SignupForm.php(62): yii\db\BaseActiveRecord->save()
+#6 /Applications/XAMPP/xamppfiles/htdocs/laskekas/frontend/controllers/SiteController.php(165): frontend\models\SignupForm->signup()
+#7 [internal function]: frontend\controllers\SiteController->actionSignup()
+#8 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#9 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams('[]')
+#10 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('<span class="st...', '[]')
+#11 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[]')
+#12 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php(18): yii\base\Application->run()
+#14 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'daanmetal@gmail.com' for key 'email'
+The SQL being executed was: INSERT INTO `user` (`username`, `email`, `password_hash`, `auth_key`, `status`, `created_at`, `updated_at`) VALUES ('daan', 'daanmetal@gmail.com', '$2y$13$iTKuyNw6cLsb.cYN8sc/Ge7ZjLD7kpEJXKbNuTnMgHIxs6YWRclca', '3QE6lTEUpaLxArRseZkCDtOpDTCHsu5U', 10, 1456532718, 1456532718)' in /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/db/Schema.php:628
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/db/Command.php(794): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `us...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/db/Schema.php(448): yii\db\Command->execute()
+#2 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/db/ActiveRecord.php(457): yii\db\Schema->insert('<span class="st...', '[<span class="s...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/db/ActiveRecord.php(427): yii\db\ActiveRecord->insertInternal('<span class="ke...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/db/BaseActiveRecord.php(593): yii\db\ActiveRecord->insert('<span class="ke...', '<span class="ke...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/laskekas/frontend/models/SignupForm.php(62): yii\db\BaseActiveRecord->save()
+#6 /Applications/XAMPP/xamppfiles/htdocs/laskekas/frontend/controllers/SiteController.php(165): frontend\models\SignupForm->signup()
+#7 [internal function]: frontend\controllers\SiteController->actionSignup()
+#8 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#9 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams('[]')
+#10 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('<span class="st...', '[]')
+#11 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[]')
+#12 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php(18): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1062
+    [2] => Duplicate entry 'daanmetal@gmail.com' for key 'email'
+)
+
+2016-02-27 01:25:17 [::1][-][kr62b76jj5obg4hd4km2ld8h87][info][application] $_POST = [
+    '_frontendCsrf' => 'cWxLZzNqZm0HJBwvBCleGkUuBxABPQ4aPRQRAx49FFU7DikFfSJVLA=='
+    'SignupForm' => [
+        'username' => 'daan'
+        'email' => 'daanmetal@gmail.com'
+        'password' => '887966394'
+        'first_name' => 'Daniel'
+        'last_name' => 'Castañeda'
+        'gender' => '1'
+    ]
+    'signup-button' => ''
+]
+
+$_COOKIE = [
+    '_frontendCsrf' => 'b3fc08dec994b9def87174cda96816cc94ab502c97d18cef05ddad53f1c48257a:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"vHWH7C8w4BLw2WhwLxZd-Wr8JbbbNH3A\";}'
+    '_ga' => 'GA1.1.1947769659.1450365104'
+    '_frontendSessionId' => 'kr62b76jj5obg4hd4km2ld8h87'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'VtDs7cCoDucAAFYgJkIAAAAG'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'VtDs7cCoDucAAFYgJkIAAAAG'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '298'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36 OPR/35.0.2066.82'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost/laskekas/site/signup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, lzma'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCsrf=b3fc08dec994b9def87174cda96816cc94ab502c97d18cef05ddad53f1c48257a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22vHWH7C8w4BLw2WhwLxZd-Wr8JbbbNH3A%22%3B%7D; _ga=GA1.1.1947769659.1450365104; _frontendSessionId=kr62b76jj5obg4hd4km2ld8h87'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Unix) OpenSSL/1.0.1p PHP/5.5.28 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php'
+    'REMOTE_PORT' => '54218'
+    'REDIRECT_URL' => '/laskekas/site/signup'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/laskekas/site/signup'
+    'SCRIPT_NAME' => '/laskekas/index.php'
+    'PHP_SELF' => '/laskekas/index.php'
+    'REQUEST_TIME_FLOAT' => 1456532717.317
+    'REQUEST_TIME' => 1456532717
+]
+2016-02-27 01:25:48 [::1][-][kr62b76jj5obg4hd4km2ld8h87][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: common\models\Profile::first_name' in /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Component.php:197
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/db/BaseActiveRecord.php(267): yii\base\Component->__set('first_name', 'Daniel')
+#1 /Applications/XAMPP/xamppfiles/htdocs/laskekas/frontend/models/SignupForm.php(64): yii\db\BaseActiveRecord->__set('first_name', 'Daniel')
+#2 /Applications/XAMPP/xamppfiles/htdocs/laskekas/frontend/controllers/SiteController.php(165): frontend\models\SignupForm->signup()
+#3 [internal function]: frontend\controllers\SiteController->actionSignup()
+#4 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('signup', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/signup', Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php(18): yii\base\Application->run()
+#10 {main}
+2016-02-27 01:25:48 [::1][-][kr62b76jj5obg4hd4km2ld8h87][info][application] $_POST = [
+    '_frontendCsrf' => 'LTJVZnZyb2RbegIuQTFXExlwGRFEJQcTYUoPAlslHVxnUDcEODpcJQ=='
+    'SignupForm' => [
+        'username' => 'daan'
+        'email' => 'daanmestal@gmail.com'
+        'password' => '887966394'
+        'first_name' => 'Daniel'
+        'last_name' => 'Castañeda'
+        'gender' => '1'
+    ]
+    'signup-button' => ''
+]
+
+$_COOKIE = [
+    '_frontendCsrf' => 'b3fc08dec994b9def87174cda96816cc94ab502c97d18cef05ddad53f1c48257a:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"vHWH7C8w4BLw2WhwLxZd-Wr8JbbbNH3A\";}'
+    '_ga' => 'GA1.1.1947769659.1450365104'
+    '_frontendSessionId' => 'kr62b76jj5obg4hd4km2ld8h87'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'VtDtDMCoDucAAF4uifsAAAAK'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'VtDtDMCoDucAAF4uifsAAAAK'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '299'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36 OPR/35.0.2066.82'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost/laskekas/site/signup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, lzma'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCsrf=b3fc08dec994b9def87174cda96816cc94ab502c97d18cef05ddad53f1c48257a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22vHWH7C8w4BLw2WhwLxZd-Wr8JbbbNH3A%22%3B%7D; _ga=GA1.1.1947769659.1450365104; _frontendSessionId=kr62b76jj5obg4hd4km2ld8h87'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Unix) OpenSSL/1.0.1p PHP/5.5.28 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php'
+    'REMOTE_PORT' => '54221'
+    'REDIRECT_URL' => '/laskekas/site/signup'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/laskekas/site/signup'
+    'SCRIPT_NAME' => '/laskekas/index.php'
+    'PHP_SELF' => '/laskekas/index.php'
+    'REQUEST_TIME_FLOAT' => 1456532748.121
+    'REQUEST_TIME' => 1456532748
+]
+2016-02-27 01:26:27 [::1][-][kr62b76jj5obg4hd4km2ld8h87][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'daan' for key 'username'' in /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/db/Command.php:784
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/db/Command.php(784): PDOStatement->execute()
+#1 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/db/Schema.php(448): yii\db\Command->execute()
+#2 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/db/ActiveRecord.php(457): yii\db\Schema->insert('<span class="st...', '[<span class="s...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/db/ActiveRecord.php(427): yii\db\ActiveRecord->insertInternal('<span class="ke...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/db/BaseActiveRecord.php(593): yii\db\ActiveRecord->insert('<span class="ke...', '<span class="ke...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/laskekas/frontend/models/SignupForm.php(62): yii\db\BaseActiveRecord->save()
+#6 /Applications/XAMPP/xamppfiles/htdocs/laskekas/frontend/controllers/SiteController.php(165): frontend\models\SignupForm->signup()
+#7 [internal function]: frontend\controllers\SiteController->actionSignup()
+#8 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#9 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams('[]')
+#10 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('<span class="st...', '[]')
+#11 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[]')
+#12 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php(18): yii\base\Application->run()
+#14 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'daan' for key 'username'
+The SQL being executed was: INSERT INTO `user` (`username`, `email`, `password_hash`, `auth_key`, `status`, `created_at`, `updated_at`) VALUES ('daan', 'daanmestal@gmail.com', '$2y$13$SGJNtTAKbJ5sVAVknaaIJ.9h2aSNFvic939xzp8fnITen4UuyIqMq', 'ySWkQjvHzsFrdVSZy5uV6LgZB3cXHM-f', 10, 1456532787, 1456532787)' in /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/db/Schema.php:628
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/db/Command.php(794): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `us...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/db/Schema.php(448): yii\db\Command->execute()
+#2 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/db/ActiveRecord.php(457): yii\db\Schema->insert('<span class="st...', '[<span class="s...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/db/ActiveRecord.php(427): yii\db\ActiveRecord->insertInternal('<span class="ke...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/db/BaseActiveRecord.php(593): yii\db\ActiveRecord->insert('<span class="ke...', '<span class="ke...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/laskekas/frontend/models/SignupForm.php(62): yii\db\BaseActiveRecord->save()
+#6 /Applications/XAMPP/xamppfiles/htdocs/laskekas/frontend/controllers/SiteController.php(165): frontend\models\SignupForm->signup()
+#7 [internal function]: frontend\controllers\SiteController->actionSignup()
+#8 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#9 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams('[]')
+#10 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('<span class="st...', '[]')
+#11 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[]')
+#12 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php(18): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1062
+    [2] => Duplicate entry 'daan' for key 'username'
+)
+
+2016-02-27 01:26:27 [::1][-][kr62b76jj5obg4hd4km2ld8h87][info][application] $_POST = [
+    '_frontendCsrf' => 'LTJVZnZyb2RbegIuQTFXExlwGRFEJQcTYUoPAlslHVxnUDcEODpcJQ=='
+    'SignupForm' => [
+        'username' => 'daan'
+        'email' => 'daanmestal@gmail.com'
+        'password' => '887966394'
+        'first_name' => 'Daniel'
+        'last_name' => 'Castañeda'
+        'gender' => '1'
+    ]
+    'signup-button' => ''
+]
+
+$_COOKIE = [
+    '_frontendCsrf' => 'b3fc08dec994b9def87174cda96816cc94ab502c97d18cef05ddad53f1c48257a:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"vHWH7C8w4BLw2WhwLxZd-Wr8JbbbNH3A\";}'
+    '_ga' => 'GA1.1.1947769659.1450365104'
+    '_frontendSessionId' => 'kr62b76jj5obg4hd4km2ld8h87'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'VtDtM8CoDucAAF6bKywAAAAJ'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'VtDtM8CoDucAAF6bKywAAAAJ'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '299'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36 OPR/35.0.2066.82'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost/laskekas/site/signup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, lzma'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCsrf=b3fc08dec994b9def87174cda96816cc94ab502c97d18cef05ddad53f1c48257a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22vHWH7C8w4BLw2WhwLxZd-Wr8JbbbNH3A%22%3B%7D; _ga=GA1.1.1947769659.1450365104; _frontendSessionId=kr62b76jj5obg4hd4km2ld8h87'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Unix) OpenSSL/1.0.1p PHP/5.5.28 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php'
+    'REMOTE_PORT' => '54227'
+    'REDIRECT_URL' => '/laskekas/site/signup'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/laskekas/site/signup'
+    'SCRIPT_NAME' => '/laskekas/index.php'
+    'PHP_SELF' => '/laskekas/index.php'
+    'REQUEST_TIME_FLOAT' => 1456532787.034
+    'REQUEST_TIME' => 1456532787
+]
+2016-02-27 01:26:54 [::1][-][kr62b76jj5obg4hd4km2ld8h87][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'daan' for key 'username'' in /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/db/Command.php:784
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/db/Command.php(784): PDOStatement->execute()
+#1 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/db/Schema.php(448): yii\db\Command->execute()
+#2 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/db/ActiveRecord.php(457): yii\db\Schema->insert('<span class="st...', '[<span class="s...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/db/ActiveRecord.php(427): yii\db\ActiveRecord->insertInternal('<span class="ke...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/db/BaseActiveRecord.php(593): yii\db\ActiveRecord->insert('<span class="ke...', '<span class="ke...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/laskekas/frontend/models/SignupForm.php(62): yii\db\BaseActiveRecord->save()
+#6 /Applications/XAMPP/xamppfiles/htdocs/laskekas/frontend/controllers/SiteController.php(165): frontend\models\SignupForm->signup()
+#7 [internal function]: frontend\controllers\SiteController->actionSignup()
+#8 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#9 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams('[]')
+#10 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('<span class="st...', '[]')
+#11 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[]')
+#12 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php(18): yii\base\Application->run()
+#14 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'daan' for key 'username'
+The SQL being executed was: INSERT INTO `user` (`username`, `email`, `password_hash`, `auth_key`, `status`, `created_at`, `updated_at`) VALUES ('daan', 'daanmestal@gmail.com', '$2y$13$Xgl8/891NhXvKraRugnoGef/EQSFxa70Pwmj780ajqfqhBt1lzB86', 'EmgfMY8iu-lNGn8Zp6C-ECxnnLkMZIdw', 10, 1456532814, 1456532814)' in /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/db/Schema.php:628
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/db/Command.php(794): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `us...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/db/Schema.php(448): yii\db\Command->execute()
+#2 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/db/ActiveRecord.php(457): yii\db\Schema->insert('<span class="st...', '[<span class="s...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/db/ActiveRecord.php(427): yii\db\ActiveRecord->insertInternal('<span class="ke...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/db/BaseActiveRecord.php(593): yii\db\ActiveRecord->insert('<span class="ke...', '<span class="ke...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/laskekas/frontend/models/SignupForm.php(62): yii\db\BaseActiveRecord->save()
+#6 /Applications/XAMPP/xamppfiles/htdocs/laskekas/frontend/controllers/SiteController.php(165): frontend\models\SignupForm->signup()
+#7 [internal function]: frontend\controllers\SiteController->actionSignup()
+#8 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#9 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams('[]')
+#10 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('<span class="st...', '[]')
+#11 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[]')
+#12 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php(18): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1062
+    [2] => Duplicate entry 'daan' for key 'username'
+)
+
+2016-02-27 01:26:54 [::1][-][kr62b76jj5obg4hd4km2ld8h87][info][application] $_POST = [
+    '_frontendCsrf' => 'TF9lLnRaNmI6FzJmQxkOFXgdKVlGDV4VACc/SlkNRFoGPQdMOhIFIw=='
+    'SignupForm' => [
+        'username' => 'daan'
+        'email' => 'daanmestal@gmail.com'
+        'password' => '887966394'
+        'first_name' => 'Daniel'
+        'last_name' => 'Castañeda'
+        'gender' => '1'
+    ]
+    'signup-button' => ''
+]
+
+$_COOKIE = [
+    '_frontendCsrf' => 'b3fc08dec994b9def87174cda96816cc94ab502c97d18cef05ddad53f1c48257a:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"vHWH7C8w4BLw2WhwLxZd-Wr8JbbbNH3A\";}'
+    '_ga' => 'GA1.1.1947769659.1450365104'
+    '_frontendSessionId' => 'kr62b76jj5obg4hd4km2ld8h87'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'VtDtTsCoDucAAFwisZIAAAAF'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'VtDtTsCoDucAAFwisZIAAAAF'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '301'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36 OPR/35.0.2066.82'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost/laskekas/site/signup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, lzma'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCsrf=b3fc08dec994b9def87174cda96816cc94ab502c97d18cef05ddad53f1c48257a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22vHWH7C8w4BLw2WhwLxZd-Wr8JbbbNH3A%22%3B%7D; _ga=GA1.1.1947769659.1450365104; _frontendSessionId=kr62b76jj5obg4hd4km2ld8h87'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Unix) OpenSSL/1.0.1p PHP/5.5.28 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php'
+    'REMOTE_PORT' => '54230'
+    'REDIRECT_URL' => '/laskekas/site/signup'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/laskekas/site/signup'
+    'SCRIPT_NAME' => '/laskekas/index.php'
+    'PHP_SELF' => '/laskekas/index.php'
+    'REQUEST_TIME_FLOAT' => 1456532814.036
+    'REQUEST_TIME' => 1456532814
+]
+2016-02-27 01:39:03 [::1][-][qe6rtpf04snnaq7g6n37pi0c92][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "frontend/assets/js/jquery.min.map".' in /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('frontend/assets...', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/laskekas/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-02-27 01:39:03 [::1][-][qe6rtpf04snnaq7g6n37pi0c92][info][application] $_COOKIE = [
+    '_frontendCsrf' => 'b3fc08dec994b9def87174cda96816cc94ab502c97d18cef05ddad53f1c48257a:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"vHWH7C8w4BLw2WhwLxZd-Wr8JbbbNH3A\";}'
+    '_ga' => 'GA1.1.1947769659.1450365104'
+    '_frontendSessionId' => 'qe6rtpf04snnaq7g6n37pi0c92'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'VtDwJ8CoDucAAGd@VIoAAAAE'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'VtDwJ8CoDucAAGd@VIoAAAAE'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36 OPR/35.0.2066.82'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, lzma, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCsrf=b3fc08dec994b9def87174cda96816cc94ab502c97d18cef05ddad53f1c48257a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22vHWH7C8w4BLw2WhwLxZd-Wr8JbbbNH3A%22%3B%7D; _ga=GA1.1.1947769659.1450365104; _frontendSessionId=qe6rtpf04snnaq7g6n37pi0c92'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Unix) OpenSSL/1.0.1p PHP/5.5.28 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/laskekas/index.php'
+    'REMOTE_PORT' => '54381'
+    'REDIRECT_URL' => '/laskekas/frontend/assets/js/jquery.min.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/laskekas/frontend/assets/js/jquery.min.map'
+    'SCRIPT_NAME' => '/laskekas/index.php'
+    'PHP_SELF' => '/laskekas/index.php'
+    'REQUEST_TIME_FLOAT' => 1456533543.241
+    'REQUEST_TIME' => 1456533543
+]

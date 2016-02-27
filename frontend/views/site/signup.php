@@ -7,16 +7,11 @@
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 
-$this->title = 'Signup';
-$this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="site-signup">
-    <h1><?= Html::encode($this->title) ?></h1>
 
-    <p>Please fill out the following fields to signup:</p>
+    <h1>Las kekas</h1>
+    <h3>Create your account</h3>
 
-    <div class="row">
-        <div class="col-lg-5">
             <?php $form = ActiveForm::begin(['id' => 'form-signup']); ?>
 
                 <?= $form->field($model, 'username') ?>
@@ -25,12 +20,18 @@ $this->params['breadcrumbs'][] = $this->title;
 
                 <?= $form->field($model, 'password')->passwordInput() ?>
                 
+                <?= $form->field($model, 'first_name') ?>
 
-                <div class="form-group">
-                    <?= Html::submitButton('Signup', ['class' => 'btn btn-primary', 'name' => 'signup-button']) ?>
+                <?= $form->field($model, 'last_name') ?>
+
+                <?= $form->field($model, 'gender')->dropDownList([1 => 'Hombre', 2 => 'Mujer']) ?>
+                
+                <div class="form-group " >
+                    <?= Html::submitButton('Signup', ['class' => 'btn btn-primary btn-block', 'name' => 'signup-button']) ?>
                 </div>
 
+                <p style="color:#999;margin:1em 0">Already have an account?</p>
+                <p style="color:#999"><?= Html::a('Log Into Account', ['site/login'], ['class' => 'btn  btn-default btn-block']) ?></p>
             <?php ActiveForm::end(); ?>
-        </div>
-    </div>
+
 </div>

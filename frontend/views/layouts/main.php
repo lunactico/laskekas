@@ -39,7 +39,7 @@ MainAsset::register($this);
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">piple</a>
+                    <a class="navbar-brand" href="#">Las <b>KEKAS</b></a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
@@ -220,7 +220,9 @@ MainAsset::register($this);
                                         <img alt="image" class="img-circle" src="images/avtar-1.jpg" width="40">
                                     </span>
                                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                                        <span class="clear" style="display: block;"> <span class="block m-t-xs"> <strong class="font-bold">John Doe  <b class="caret"></b></strong>
+                                        <span class="clear" style="display: block;"> <span class="block m-t-xs"> 
+                                        <strong class="font-bold"><?= Yii::$app->user->identity->profile->name.' '.Yii::$app->user->identity->profile->last_name ?>  <b class="caret"></b>
+                                        </strong>
                                             </span></span> </a>
                                     <ul class="dropdown-menu animated fadeInRight m-t-xs">
                                         <li><a href="#"><i class="fa fa-user"></i>My Profile</a></li>
@@ -273,91 +275,7 @@ MainAsset::register($this);
                                     <li><a href="form_inline_edit.html">Inline edit</a></li>
                                 </ul>
                             </li>
-                            <li>
-                                <a href="#"><i class="fa fa-files-o"></i> <span class="nav-label">Other Pages</span><span class="fa arrow"></span></a>
-                                <ul class="nav nav-second-level collapse">
-                                    <li><a href="lockscreen.html">Lockscreen</a></li>
-                                    <li><a href="site/logout.html">Logout</a></li>
-                                    <li><a href="site/login.html">Login</a></li>
-                                    <li><a href="register.html">Register</a></li>
-                                    <li><a href="404.html">404 Page</a></li>
-                                    <li><a href="empty_page.html">Empty page</a></li>
-                                    <li><a href="gallery.html">gallery</a></li>
-                                    <li><a href="price_tables.html">Price tables</a></li>
-                                    <li><a href="page_contact.html">Contact Page</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa fa-shopping-cart"></i> <span class="nav-label">E-commerce</span><span class="fa arrow"></span></a>
-                                <ul class="nav nav-second-level collapse">
-                                    <li><a href="orders.html">orders</a></li>
-                                    <li><a href="order-view.html">order View</a></li>
-                                    <li><a href="products.html">Products</a></li>
-
-
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa fa-flask"></i> <span class="nav-label">UI Elements</span><span class="fa arrow"></span></a>
-                                <ul class="nav nav-second-level collapse">
-                                    <li><a href="typography.html">Typography</a></li>
-                                    <li><a href="icons.html">Icons</a></li>
-                                    <li><a href="buttons.html">Buttons</a></li>
-                                    <li><a href="video.html">Video</a></li>
-                                    <li><a href="tabs_panels.html">Panels</a></li>
-                                    <li><a href="tabs.html">Tabs</a></li>
-                                    <li><a href="alert_notifications.html">Alert & notifications</a></li>
-                                </ul>
-                            </li>
-
-                            <li>
-                                <a href="grid_options.html"><i class="fa fa-laptop"></i> <span class="nav-label">Grid options</span></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa fa-table"></i> <span class="nav-label">Tables</span><span class="fa arrow"></span></a>
-                                <ul class="nav nav-second-level collapse">
-                                    <li><a href="table_basic.html">Static Tables</a></li>
-                                    <li><a href="table_data_tables.html">Data Tables</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa fa-users"></i> <span class="nav-label">Users</span><span class="fa arrow"></span></a>
-                                <ul class="nav nav-second-level collapse">
-                                    <li><a href="user_profile.html">profile</a></li>
-                                    <li><a href="user_list.html">User list</a></li>
-
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa fa-map-marker"></i> <span class="nav-label">maps</span><span class="fa arrow"></span></a>
-                                <ul class="nav nav-second-level collapse">
-                                    <li><a href="google_maps.html">Google maps</a></li>
-                                    <li><a href="vector_maps.html">Vector Maps</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa fa-pencil"></i> <span class="nav-label">Blog</span><span class="fa arrow"></span></a>
-                                <ul class="nav nav-second-level collapse">
-                                    <li><a href="blog_list.html">Blog list</a></li>
-                                    <li><a href="blog_post.html">Blog post</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="calendar.html"><i class="fa fa-calendar"></i>  <span class="nav-label">Calendar </span></a></li>
-
-                            <li>
-                                <a href="#"><i class="fa fa-sitemap"></i> <span class="nav-label">Menu Levels </span><span class="fa arrow"></span></a>
-                                <ul class="nav nav-second-level collapse">
-                                    <li>
-                                        <a href="#">Third Level <span class="fa arrow"></span></a>
-                                        <ul class="nav nav-third-level">
-                                            <li>
-                                                <a href="#">Third Level Item</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Second Level Item</a></li>
-                                </ul>
-                            </li>                                    
+                                                               
                         </ul>
 
                     </div>

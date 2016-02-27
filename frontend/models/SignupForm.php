@@ -2,6 +2,7 @@
 namespace frontend\models;
 
 use common\models\User;
+use common\models\Profile;
 use yii\base\Model;
 use Yii;
 
@@ -13,7 +14,9 @@ class SignupForm extends Model
     public $username;
     public $email;
     public $password;
-
+    public $first_name;
+    public $last_name;
+    public $gender;
     /**
      * @inheritdoc
      */
@@ -33,6 +36,12 @@ class SignupForm extends Model
 
             ['password', 'required'],
             ['password', 'string', 'min' => 6],
+
+            ['first_name', 'required'],
+
+            ['last_name', 'required'],
+
+            ['gender', 'required'],
         ];
     }
 
@@ -45,13 +54,23 @@ class SignupForm extends Model
     {
         if ($this->validate()) {
             $user = new User();
+            $profile = new Profile();
             $user->username = $this->username;
             $user->email = $this->email;
             $user->setPassword($this->password);
             $user->generateAuthKey();
             if ($user->save()) {
-                return $user;
+                $profile->user_id = $user->getPrimaryKey();
+                $profile->name = $this->first_name;
+                $profile->last_name = $this->last_name;
+                $profile->gender = $this->gender;
+                if($profile->save()){
+                    return $user;
+                }
             }
+        }
+        else{
+            echo 'manco';
         }
 
         return null;
