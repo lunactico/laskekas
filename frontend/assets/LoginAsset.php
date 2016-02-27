@@ -25,6 +25,7 @@ class LoginAsset extends AssetBundle
         
         'css/style.css',
         'font-awesome/css/font-awesome.min.css',
+        'back.css',
         
         
     ];

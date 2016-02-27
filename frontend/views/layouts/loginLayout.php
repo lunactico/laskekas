@@ -22,7 +22,13 @@ LoginAsset::register($this);
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
 </head>
-<body class="account">
+<body class="account" style = "width: 100%; height: 100%;opacity: 1;
+    visibility: inherit;
+    background-image: url(./images/yolo.jpg);
+    background-color: rgba(0, 0, 0, 0);
+    background-size: cover;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;">
 <?php $this->beginBody() ?>
 		<div class="container">
             <div class="row">
