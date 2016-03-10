@@ -1,15 +1,47 @@
 <?php
 
-use yii\helpers\Html;
-use yii\widgets\ActiveForm;
-
 /* @var $this yii\web\View */
-/* @var $model common\models\Profile */
-/* @var $form yii\widgets\ActiveForm */
+/* @var $form yii\bootstrap\ActiveForm */
+/* @var $model \frontend\models\SignupForm */
+
+use yii\helpers\Html;
+use yii\bootstrap\ActiveForm;
+
 ?>
+<!DOCTYPE html>
+<html lang="<?= Yii::$app->language ?>">
+<head>
+    <meta charset="<?= Yii::$app->charset ?>">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <?= Html::csrfMetaTags() ?>
+    <title><?= Html::encode($this->title) ?></title>
+    <?php $this->head() ?>
+</head>
+<?php
 
-<div class="profile-form">
+/* @var $this \yii\web\View */
+/* @var $content string */
 
+use yii\helpers\Html;
+use frontend\assets\ProfileAsset;
+use common\widgets\Alert;
+
+ProfileAsset::register($this);
+?>
+<?php $this->beginPage() ?>
+<!DOCTYPE html>
+<html lang="<?= Yii::$app->language ?>">
+<head>
+    <meta charset="<?= Yii::$app->charset ?>">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <?= Html::csrfMetaTags() ?>
+    <title><?= Html::encode($this->title) ?></title>
+    <?php $this->head() ?>
+</head>
+<body>
+<?php $this->beginBody() ?>
+	
+	                
     <?php $form = ActiveForm::begin(); ?>
 
 
@@ -29,4 +61,6 @@ use yii\widgets\ActiveForm;
 
     <?php ActiveForm::end(); ?>
 
+
 </div>
+</div> 

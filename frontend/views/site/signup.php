@@ -8,7 +8,26 @@ use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 
 ?>
-
+<!DOCTYPE html>
+<html lang="<?= Yii::$app->language ?>">
+<head>
+    <meta charset="<?= Yii::$app->charset ?>">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <?= Html::csrfMetaTags() ?>
+    <title><?= Html::encode($this->title) ?></title>
+    <?php $this->head() ?>
+</head>
+<body class="account" style = "width: 100%; height: 100%;opacity: 1;
+    visibility: inherit;
+    background-image: url(/laskekas/images/background.jpg);
+    background-color: rgba(0, 0, 0, 0);
+    background-size: cover;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;">
+<?php $this->beginBody() ?>
+<div class="container">
+            <div class="row">
+                <div class="account-col text-center">
     <h1>Las kekas</h1>
     <h3>Create your account</h3>
 
@@ -35,3 +54,10 @@ use yii\bootstrap\ActiveForm;
             <?php ActiveForm::end(); ?>
 
 </div>
+</div>
+
+
+<?php $this->endBody() ?>
+</body>
+</html>
+<?php $this->endPage() ?>

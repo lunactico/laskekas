@@ -15,6 +15,7 @@ use Yii;
  * @property string $avatar
  * @property integer $type
  * @property integer $reputation
+ * @property string $biografia
  *
  * @property User $user
  */
@@ -34,10 +35,10 @@ class Profile extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['user_id', 'name'], 'required'],
+            [['name'], 'required'],
             [['user_id', 'type', 'reputation'], 'integer'],
             [['name', 'last_name', 'gender'], 'string', 'max' => 45],
-            [['avatar'], 'string', 'max' => 250],
+            [['avatar', 'biografia'], 'string', 'max' => 250],
             [['user_id'], 'exist', 'skipOnError' => true, 'targetClass' => User::className(), 'targetAttribute' => ['user_id' => 'id']],
         ];
     }
@@ -56,6 +57,7 @@ class Profile extends \yii\db\ActiveRecord
             'avatar' => Yii::t('app', 'Avatar'),
             'type' => Yii::t('app', 'Type'),
             'reputation' => Yii::t('app', 'Reputation'),
+            'biografia' => Yii::t('app', 'Biografia'),
         ];
     }
 
